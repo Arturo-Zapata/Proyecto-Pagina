@@ -1,0 +1,96 @@
+
+
+.topnav{
+    overflow: hidden;
+    background-color: #FFFBCE;
+}
+/* topnav es para la barra de navegacion. bg-color es el fondo de la barra. */
+
+ .topnav a {
+    float: left;
+    color: #070603;
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+/* topnav a es para el formato de la barra. padding es el ancho y largo. color es para las letras. */
+
+.topnav a:hover{
+    background-color: #FFF485;
+    color: black;
+}
+/* topnav a:hover es para cuando el raton esta sobre las solapas, el color cambia cuando esta sobre ellas. */
+
+ .navbar-brand {
+    padding-left: 2%;
+}
+/* navbar-brand es para el icono de la barra de navegacion. */
+
+ ul {
+     list-style: none;
+     padding-right: 1%;
+     text-decoration: none;
+ }
+
+
+ /* li es para mover las solapas al lado contrario del icono principal. */
+
+ .tienda{
+     padding-top: 40px;
+ }
+
+ .quienes{
+     text-align: center;
+     padding-right: 50px;
+     padding-left: 50px;
+ }
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFBCE;
+    color: #070603;
+    text-align: center;
+  }
+
+  .boton-wpp{
+      position: fixed;
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+      bottom: 30px;
+      right: 30px;
+      background: #0df053;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+      z-index: 100;
+  }
+
+  .boton-wpp:hover{
+      text-decoration: none;
+      color: #0df053;
+      background: #fff;
+  }
+
+  .footer {  
+    position: static;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 100%;  
+    background-color: #FFFBCE;  
+    color: #070603;  
+    text-align: center;  
+    }  
+
+  #mapa {
+    height: 150px;
+    width: 150%;
+  }
+  
